@@ -13,12 +13,12 @@ public class Bissexto {
 	while(i>=0){
 		if(anoI%4==0){
 		   System.out.println(anoI +" é bissexto!");
-                                anoB++;
+                anoB++;
 		}
-                            anoI++;
+        anoI++;
 		i--;
 	}
-    System.out.println(anoB + "anos são bissextos!");
+    System.out.println(anoB + " anos são bissextos!");
 	ler.close();
     }
 }
