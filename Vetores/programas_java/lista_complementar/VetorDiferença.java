@@ -2,12 +2,12 @@ package prjVetores;
 
 import java.util.Scanner;
 
-public class VetorDiferença {
+public class VetorInterseção {
 
 	public static void main(String args[]) {
 		Scanner ler = new Scanner (System.in);
 		
-		final int TAM = 10;
+		final int TAM = 10;.
 		int i,a[],b[],c[],j;
 		a = new int [TAM];
 		b = new int [TAM];
@@ -38,3 +38,4 @@ public class VetorDiferença {
 		System.out.println("]");
 	}
 }
+
