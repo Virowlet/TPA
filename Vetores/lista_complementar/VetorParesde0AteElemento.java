@@ -15,6 +15,7 @@ public class VetorParesde0AteElemento {
 			System.out.println("Insira o " + (i+1) + "° valor do vetor A:");
 			a[i] = ler.nextInt();
 		}
+		System.out.println("Os divisores de cada elemento são:");
 		for(i=0;i<TAM;i++) {
 			System.out.print(a[i] + "( ");
 			for(j=0;j<=a[i];j++) {
